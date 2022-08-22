@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+	x:Class="App.RoundedButton"
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:shapes="clr-namespace:Xamarin.Forms.Shapes;assembly=Xamarin.Forms.Core">
+
+	<Grid>
+		<shapes:Rectangle Fill="Azure" RadiusX="20" RadiusY="20" Stroke="Black" StrokeThickness="3" />
+
+		<Label Text="Sample" TextColor="Black" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
+	</Grid>
+</ContentView>
